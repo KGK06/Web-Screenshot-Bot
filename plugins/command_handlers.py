@@ -48,11 +48,11 @@ async def feedback(_: Client, message: Message) -> None:
         text="<b>I can read webpage of a given link and send PDF or PNG or JPEG of Webpage to your!</b>",
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("Developer 💻", url="https://t.me/AbirHasan2005"),
-                InlineKeyboardButton("Support Group 💬", url="https://t.me/linux_repo")],
+                InlineKeyboardButton("🗃️ More Bots 🗃️", url="https://t.me/MeGBots/5"),
+                InlineKeyboardButton("💬 Support chat 💬", url="https://t.me/MeGSupport")],
             [InlineKeyboardButton(
-                "Telegram Bots Updates",
-                url="https://t.me/Discovery_Updates")]
+                "Update's Channel",
+                url="https://t.me/MeGBots")]
             ])
     )
 
